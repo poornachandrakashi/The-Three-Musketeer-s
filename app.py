@@ -31,7 +31,7 @@ def emotion():
     person = data1['person']
     BlinkData = data1['blink_data']
     current_time = data1['current_time']
-    return render_template("new.html",person = person,blinkdata= BlinkData,current_time = current_time)
+    return render_template("index1.html",person = person,blinkdata= BlinkData,current_time = current_time)
 
 if __name__ == "__main__":
     app.run(debug=True)
